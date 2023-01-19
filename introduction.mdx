@@ -1,67 +1,68 @@
 ---
 title: "Introduction"
-description: "Welcome to the Mintlify Starter Kit"
+description: "Welcome to inputify the best way to capture inputs"
 ---
 
-<Note>
-  Update the content in main branch of your docs repo, and your documentation page will automatically be updated. It's that simple!
-</Note>
+## What is Inputify?
+A **simple** and **powerful** javascript library to get keys inputs. With support for keyboards, MIDI, and controllers from almost all the consoles (or alternatives). Made with pure javascript to be fast and light 💪.
 
-## Getting Started
+## Installation
 
-Select from the following guides to learn more about how Mintlify can best suit your documentation.
+<Tabs>
+  <Tab title="script">
+  Inside of your project import it using a script tag:
+
+  ```js
+  <script src="https://github.com/inputify/inputify-js/cdn/inputify.js" crossorigin="anonymous"></script>
+  ```
+  </Tab>
+  <Tab title="minimal-script">
+  Inside of your project import it using a minimal script tag:
+  
+  ```js
+  <script src="https://github.com/inputify/inputify-js/cdn/inputify.min.js" crossorigin="anonymous"></script>
+  ```
+  </Tab>
+</Tabs>
+
+## Previewing Changes Locally
+
+Run the following command at the root of your documentation where `mint.json` is located. Mintlify will open at `localhost:3000`.
+
+```bash Terminal
+mintlify dev
+```
+
+## Modules Summary
+
+Select a module to see all the functions and how to use it.
 
 <CardGroup>
-  <Card title="Development" icon="rectangle-terminal" href="/development">
-    Run on your computer to see changes locally
+  <Card title="Keyboard" icon="keyboard" href="/keyboard/keyboard.mdx">
+    Capture keyboard input and do fun functions.
   </Card>
-  <Card title="Global Settings" icon="sliders" href="https://mintlify.com/docs/settings/global">
-    Customizing the theme, branding, and other global configurations
+  <Card title="MIDI" icon="piano-keyboard" href="https://mintlify.com/docs/settings/global">
+    Easily get MIDI inputs in any website/webapp.
   </Card>
-  <Card title="Page Titles and Metadata" icon="heading" href="https://mintlify.com/docs/settings/page">
-    Setting the title and metadata for navigation and SEO
-  </Card>
-  <Card title="Writing Content" icon="pen-nib" href="https://mintlify.com/docs/components/overview">
-    Introduction on how to add and edit content
-  </Card>
-  <Card title="Learn More" icon="ellipsis" href="/resources">
-    See more in the resources page
+  <Card title="Controller" icon="gamepad-modern" href="https://mintlify.com/docs/settings/page">
+    Capture inputs from almost any gamepad and do fun functions.
   </Card>
 </CardGroup>
 
-## Customization Checklist
+## Troubleshooting
 
-Learn more about you can fully customize the starter template for your own documentation
+Here's how to solve some common problems when working with the CLI.
 
 <AccordionGroup>
-  <Accordion title="Change name">Update the `name` property in `mint.json` to the name of your company or product</Accordion>
-  <Accordion title="Customize the branding">
-    Branding mostly happens in the `mint.json` file. You can learn more about all available [configuration properties](https://mintlify.com/docs/settings/global).
-
-    #### Update the logo
-
-    Update `logo` folder with the light and dark version of your logo (can be svg or png).
-    <Note>Make sure that the path matches the values set in `logo` of `mint.json`</Note>
-
-    #### Customize the colors
-
-    Populate the `colors` object with colors that match your brand
-
-    #### Update the favicon
-
-    Change the `favicon.png` with an image of the favicon
-
-    #### Update footer social icons
-
-    Update `footerSocials` with the right `[platform]: [url]` key-value pair
+  <Accordion title="Inputify is not loading">
+    Check the link or import it using another method
   </Accordion>
-  <Accordion title="Update the anchors">Update the `anchors` array in `mint.json` with the links that you want to emphasize</Accordion>
-  <Accordion title="Update or remove the API Reference">
-    Either update the pages in `api-reference` or remove it entirely
-    <Note>If removing the API Reference, make sure to also remove it from the `anchors` and `navigation` from `mint.json`</Note>
+  <Accordion title="Inputify command not working">
+    Check if you typed the command correct and check if the command is available in your script version, cause minimal script and normal script have different modules...
   </Accordion>
-  <Accordion title="Update the topbar navigation items">
-    Update the `topbarCtaButton` and `topbarLinks` properties in `mint.json` to the links that matter most
-    <Tip>The `topbarCtaButton` will receive the most number of clicks</Tip>
+  <Accordion
+    title="More Troubleshooting"
+  >
+    Please open a issue in [github](https://github.com/inputify/inputify-js) and we will to solve it.
   </Accordion>
 </AccordionGroup>
