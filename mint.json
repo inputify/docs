@@ -14,12 +14,12 @@
   "topbarLinks": [
     {
       "name": "Documentation",
-      "url": "https://mintlify.com/docs"
+      "url": "https://github.com/inputify/docs"
     }
   ],
   "topbarCtaButton": {
-    "name": "Get Started",
-    "url": "https://github.com/mintlify/starter"
+    "name": "Source Code",
+    "url": "https://github.com/inputify/inputify-js"
   },
   "anchors": [
     {
@@ -33,23 +33,28 @@
       "url": "https://mintlify.com"
     },
     {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "name": "Github",
+      "icon": "github",
+      "url": "https://github.com/inputify"
     }
   ],
   "navigation": [
     {
       "group": "Home",
-      "pages": ["introduction", "development"]
+      "pages": ["introduction", "API"]
     },
     {
-      "group": "Learn More",
+      "group": "Documentation",
+      "navigation": [
+        {
+            "group": "Keyboard",
+            "pages": ["keyboard/docs/keyboard.mdx"]
+        }
+      ]
+    },
+    {
+      "group": "Showcases",
       "pages": ["features", "resources"]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
     },
     {
       "group": "Endpoint Examples",
@@ -62,8 +67,6 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/inputify"
   }
 }
