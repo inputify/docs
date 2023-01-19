@@ -25,19 +25,27 @@ A **simple** and **powerful** javascript library to get keys inputs. With suppor
   </Tab>
 </Tabs>
 
-## Previewing Changes Locally
+## Previewing Changes Locally (under developement)
 
-Run the following command at the root of your documentation where `mint.json` is located. Mintlify will open at `localhost:3000`.
-
+You can run a web server free using bartender (also developed by inputify team)
 ```bash Terminal
-mintlify dev
+npm i inputify-server
 ```
 
-## Modules Summary
+Than start a web server using:
 
-Select a module to see all the functions and how to use it.
+```bash Terminal
+npm run bartender
+```
+
+## Getting Started
+
+Select a module, api or showcases to see all the functions, how to use it or how people have been using it.
 
 <CardGroup>
+  <Card title="API" icon="rectangle-terminal" href="/keyboard/keyboard.mdx">
+    Inputify has a API to connect to other services using direct-link
+  </Card>
   <Card title="Keyboard" icon="keyboard" href="/keyboard/keyboard.mdx">
     Capture keyboard input and do fun functions.
   </Card>
@@ -46,6 +54,9 @@ Select a module to see all the functions and how to use it.
   </Card>
   <Card title="Controller" icon="gamepad-modern" href="https://mintlify.com/docs/settings/page">
     Capture inputs from almost any gamepad and do fun functions.
+  </Card>
+  <Card title="Showcases" icon="wand-magic-sparkles" href="https://mintlify.com/docs/settings/page">
+    See how people have been using inputify.
   </Card>
 </CardGroup>
 
