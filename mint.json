@@ -48,6 +48,10 @@
       "pages": ["keyboard/keyboard", "keyboard/keyboard_showcases"]
     },
     {
+      "group": "Keyboard",
+      "pages": ["keyboard/keyboard", "keyboard/keyboard_showcases"]
+    },
+    {
       "group": "Showcases",
       "pages": ["features", "resources"]
     },
