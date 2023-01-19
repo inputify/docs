@@ -45,7 +45,7 @@
     },
     {
       "group": "Documentation",
-      "pages": ["keyboard/keyboard", "resources"]
+      "pages": ["keyboard/docs/keyboard", "resources"]
     },
     {
       "group": "Showcases",
