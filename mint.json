@@ -45,12 +45,7 @@
     },
     {
       "group": "Documentation",
-      "navigation": [
-        {
-            "group": "Keyboard",
-            "pages": ["keyboard/docs/keyboard.mdx"]
-        }
-      ]
+      "pages": ["features", "resources"]
     },
     {
       "group": "Showcases",
